@@ -36,3 +36,7 @@ def test_solution():
     assert result5 == answer5, f"Expected {answer5}, but got {result5}"
 
     print("All test cases passed!")
+
+
+if __name__ == "__main__":
+    test_solution()
