@@ -24,3 +24,7 @@ def test_solution():
     assert solution.gcdOfStrings(str1, str2) == "A"
 
     print("All test cases passed!")
+
+
+if __name__ == "__main__":
+    test_solution()
