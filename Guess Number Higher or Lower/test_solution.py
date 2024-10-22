@@ -1,6 +1,4 @@
-# test_guess_number_higher_or_lower.py
-
-from guess_number_higher_or_lower import Solution
+from solution import Solution
 
 
 def test_solution():

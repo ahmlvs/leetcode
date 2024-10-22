@@ -1,6 +1,4 @@
-# test_merge_strings_alternately.py
-
-from merge_strings_alternately import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

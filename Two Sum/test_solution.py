@@ -1,6 +1,4 @@
-# test_two_sum.py
-
-from two_sum import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

@@ -1,6 +1,4 @@
-# test_remove_element.py
-
-from remove_element import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

@@ -1,6 +1,4 @@
-# test_roman_to_integer.py
-
-from roman_to_integer import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

@@ -1,6 +1,4 @@
-# test_search_insert_position.py
-
-from search_insert_position import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

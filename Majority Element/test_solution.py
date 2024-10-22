@@ -1,6 +1,4 @@
-# test_majority_element.py
-
-from majority_element import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

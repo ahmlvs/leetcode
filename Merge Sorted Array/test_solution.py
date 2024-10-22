@@ -1,6 +1,4 @@
-# test_merge_sorted_array.py
-
-from merge_sorted_array import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

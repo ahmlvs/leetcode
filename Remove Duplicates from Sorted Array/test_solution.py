@@ -1,6 +1,4 @@
-# test_remove_duplicates_from_sorted_array.py
-
-from remove_duplicates_from_sorted_array import Solution
+from solution import Solution
 
 def test_solution():
     solution = Solution()

@@ -13,18 +13,18 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-3. to test solution in folder "my-name"
+3. to test solution in folder "Some Problem"
 
 with pytest
 
 ```
-cd my-name
+cd Some\ Problem
 pytest -v test_solution.py
 ```
 
 execute script with python
 
 ```
-cd my-name
+cd cd Some\ Problem
 python3 test_solution.py
 ```
