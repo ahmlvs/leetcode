@@ -19,12 +19,25 @@ with pytest
 
 ```
 cd Some\ Problem
-pytest -v test_solution.py
+pytest -v
 ```
 
-execute script with python
+4. to test coverage and get html report
 
 ```
-cd cd Some\ Problem
-python3 test_solution.py
+cd Some\ Problem
+coverage run -m pytest
+coverage html
+```
+
+and then open index.html in htmlcov. Or use report command
+
+```
+coverage report -m
+```
+
+to test branches (if, else, try, except etc.) use command
+
+```
+coverage run --branch -m pytest
 ```
