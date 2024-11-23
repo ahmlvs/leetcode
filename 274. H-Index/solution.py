@@ -36,5 +36,8 @@ class Solution:
         for i in range(len(citations_desc)):
             if citations_desc[i] >= i+1:
                 h_index += 1
+            else:
+                # citations_desc[i] desc but i grow
+                break
         
         return h_index
