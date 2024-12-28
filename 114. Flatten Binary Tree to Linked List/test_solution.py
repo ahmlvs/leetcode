@@ -2,8 +2,6 @@ import unittest
 from solution import Solution, TreeNode
 from collections import deque
 
-# Correct helper functions
-
 def list_to_tree(lst):
     if not lst:
         return None
